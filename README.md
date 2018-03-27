@@ -31,6 +31,8 @@ cmake ../breakpad/mendeley
 make
 ````
 
+If building in Visual Studio please check that the *VSINSTALLDIR* environment variable is pointing to the Visual Studio installation directory. 
+
 ## Usage
 
 The overall flow for capturing crashes and debugging them as follows:
